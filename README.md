@@ -16,7 +16,7 @@ An LVCOLUMN structure attaches to a list created by CreateWindowEx, who's second
 
 There are also extended styles to the ListView that could only be set if the ListView was sent the 2nd parameter, which is sent as a bit with BITWISE OR operator known as LVS_REPORT, which is the last bit in that large parameter in CreateWindow which is a DWORD (Double Word) which is 32 bits, representing 32 different styles (mixed and matched).
 
-!()[images/list_view_code.gif]
+!()[images/list_item.gif]
 
 The extended style is the LVS_EX_FULLROWSELECT, which selects the row when clicking on the list view. This is desired behavior because you can click on the row to select it, rathere than clicking on the words itself. To set this style, it's also necessary to add in the extended style of LVS_EX_GRIDLINES as well for LVS_EX_FULLROWSELECT to work.
 
